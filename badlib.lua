@@ -4,6 +4,7 @@ function Library:CreateMain()
 	
 	local FruityMenu = Instance.new("ScreenGui")
 	local ScrollFrame = Instance.new("ScrollingFrame")
+	local UIListLayout = Instance.new("UIListLayout")
 	
 	
 	function onKeyPress(inputObject, gameProcessedEvent)
@@ -34,6 +35,9 @@ function Library:CreateMain()
 	ScrollFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ScrollFrame.Position = UDim2.new(0.763769865, 0, 0.214893609, 0)
 	ScrollFrame.Size = UDim2.new(0, 141, 0, 285)
+	
+	UIListLayout.Parent = ScrollFrame
+	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 		
 	
 	local GamerLibrary = {}
