@@ -50,7 +50,6 @@ function Library:CreateMain()
 		FruityButton.Parent = ScrollFrame
 		FruityButton.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
 		FruityButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-		FruityButton.Position = UDim2.new(-0.000957489014, 0, -8.51079822e-05, 0)
 		FruityButton.Size = UDim2.new(0, 128, 0, 23)
 		FruityButton.Font = Enum.Font.Highway
 		FruityButton.Text = Name
