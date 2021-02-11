@@ -32,9 +32,8 @@ function Library:CreateMain()
 	ScrollFrame.Active = true
 	ScrollFrame.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
 	ScrollFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	ScrollFrame.Position = UDim2.new(0.764993846, 0, 0.168085098, 0)
+	ScrollFrame.Position = UDim2.new(0.763769865, 0, 0.214893609, 0)
 	ScrollFrame.Size = UDim2.new(0, 141, 0, 285)
-	ScrollFrame.CanvasPosition = Vector2.new(0, 69.2631607)
 		
 	
 	local GamerLibrary = {}
@@ -43,10 +42,11 @@ function Library:CreateMain()
 		
 		local FruityButton = Instance.new("TextButton")
 		
+		FruityButton.Name = "FruityButton"
 		FruityButton.Parent = ScrollFrame
 		FruityButton.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
 		FruityButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-		FruityButton.Position = UDim2.new(-0.000957489014, 0, 0.0733191445, 0)
+		FruityButton.Position = UDim2.new(-0.000957489014, 0, -8.51079822e-05, 0)
 		FruityButton.Size = UDim2.new(0, 128, 0, 23)
 		FruityButton.Font = Enum.Font.Highway
 		FruityButton.Text = Name
